@@ -11,7 +11,7 @@ fake = Faker()
 
 with app.app_context():
 
-    Animal.query.delete()
+    Animal.query.delet()
     Zookeeper.query.delete()
     Enclosure.query.delete()
 
